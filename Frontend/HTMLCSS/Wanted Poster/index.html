@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Wanted Poster</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ewert&family=Ultra&display=swap"   
+  rel="stylesheet">
+  <style>
+    html, body {
+      background-image: url('./assets/wood_background.jpeg');
+      color: #291200;
+      
+      height: 100%;
+    }
+    
+    .container {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+     
+    }
+
+    .poster_border {
+      box-shadow: 2px 4px 8px 3px #000000;
+      
+    }
+
+  
+
+    .mugshot {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      filter: drop-shadow(8px 8px 10px gray);
+      border: 2px solid black;
+    }
+
+    .mugshot_border{
+      height: 310px;
+      width: 300px;
+    }
+
+    .text-container {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Ewert', cursive;
+      text-align: center;
+      margin-bottom: 20px;
+      font-family: 'Ultra', serif;
+      
+    }
+
+    .poster_title{
+      margin-bottom: 1px;
+      font-size: 64px;
+      font-family: 'Ewert', cursive;
+      
+    }
+
+    .description {
+      font-size: 25px;
+      margin-top: 1px;
+      margin-bottom: 15px;
+      font-family: 'Ultra', serif;
+      
+    }
+
+    .bottom-text{
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      margin-top: 105px;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Ultra', serif;
+       
+      
+    }
+
+    .billy{
+      font-size: 33px;
+      margin-top: 15px;
+    }
+
+    .armed{
+      font-size: 17px;
+    }
+
+    .reward{
+      font-size: 25px;
+    }
+
+    .money {
+      
+      text-decoration: double underline;
+      text-underline-offset: 8px;
+      font-size: 38px;
+    }
+
+  
+  
+    
+  </style>
+</head>
+
+<body>
+  
+  <div class="container">
+    
+     
+    <img class="poster_border" src="./assets/poster.jpeg" alt="wanted_poster">
+    <div class="mugshot">
+      <img class ="mugshot_border" src="./assets/mugshot.png" alt="mugshot">
+    </div>
+
+    <div class="text-container">
+      <h1 class="poster_title">Wanted</h1>
+      <h2 class="description">Dead or Alive</h2>
+    </div>
+
+    <div class="bottom-text">
+      <span class="billy">Billy the Kid</span>
+      <span class="armed">Armed & very dangerous</span>
+      <span class="reward">Reward</span>
+      <span class="money">$50,000</span>
+    </div>
+
+    
+   
+  </div>
+  
+</body>
+
+</html>
