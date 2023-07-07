@@ -3,4 +3,6 @@
 
 ## U.S. Presidents Reacat Project
 ---
-<video src="project.mp4" controls title="Title"></video>
+
+https://github.com/DakuwoN/Formation/assets/78394982/f8fdd8eb-7e33-4cb4-a92c-450364db1161
+
