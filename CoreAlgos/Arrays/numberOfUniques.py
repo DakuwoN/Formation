@@ -8,5 +8,5 @@ def numUniqueValues(array):
             num_unique += 1
         if new_count == 2:
             num_unique -= 1
-        counts[array[i]] = new_acount
+        counts[array[i]] = new_count
     return num_unique
