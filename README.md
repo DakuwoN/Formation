@@ -9,8 +9,7 @@ This is the documentation for what I've done with the fellowship thus far...
 Core Algorithms
 
 - [Arrays](/CoreAlgos/Arrays/)
-- Linked Lists
-- Binary Tree
+- [Linked Lists](/CoreAlgos/LinkedLists/)
 - Binary Search Tree
 - Dynamic Programming
 
