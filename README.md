@@ -10,7 +10,7 @@ Core Algorithms
 
 - [Arrays](/CoreAlgos/Arrays/)
 - [Linked Lists](/CoreAlgos/LinkedLists/)
-- [Binary Tree](/CoreAlgos/BinaryTree/)
+- [Binary Tree](/CoreAlgos/binarytree/)
 - Binary Search Tree
 - Dynamic Programming
 
